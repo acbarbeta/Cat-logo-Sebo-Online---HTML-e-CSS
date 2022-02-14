@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Velha Estante - Compra e venda de livros usados</title>
+        <meta name="description" content="Velha Estante é um sebo online, para compra e venda de livros usados pelos usuários cadastrados, com serviço de curadoria e restauração">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="images/logo/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <img src="images/logo/logo-removebg-preview.png" alt="Logo Velha Estante">
+                <a href="#">Home</a>
+                <a href="#ancora-catalogo">Catálogo</a>
+                <a href="#ancora-sobre-nos">Quem Somos</a>
+                <a href="#ancora-fale-conosco">Fale Conosco</a>
+                <a href="#ancora-venda-livros">Venda de Livros</a>
+                <a href="#ancora-cadastro">Cadastre-se</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="cabecalho">
+                <h1>Velha Estante</h1>
+                <h2> - Seu sebo online para compra e venda de livros usados - </h2>
+            </section>
+
+            <div id="ancora-catalogo"></div>
+
+            <section id="catalogo">
+                <h3>Catálogo - Destaques do mês</h3>
+
+                <div class="container">
+                    <img src="images/anne_frank.jpg" alt="O Diário de Anne Frank" class="capa-livro">
+                    <h5>O Diário de Anne Frank</h5>
+                    <p>Autor(a): Anne Frank</p>
+                    <p>Edição especial, capa dura</p>
+                    <p>Editora Record, 92ª edição</p>
+                    <p class="valor">R$60</p>
+                    <a href="#" class="detalhes"><button> Ver detalhes</button></a>
+                </div>
+
+                <div class="container">
+                    <img src="images/maus.jpg" alt="Maus" class="capa-livro">
+                    <h5>Maus</h5>
+                    <p>Autor(a): Art Spiegelman</p>
+                    <p>Graphic novel, capa comum</p>
+                    <p>Editora Quadrinhos na Cia, 1ª edição</p>
+                    <p class="valor">R$60</p>
+                    <a href="#" class="detalhes"><button> Ver detalhes</button></a>
+                </div>
+
+                <div class="container">
+                    <img src="images/nome_vento.jpg" alt="O Nome do Vento" class="capa-livro">
+                    <h5>O Nome do Vento</h5>
+                    <p>Autor(a): Patrick Rothfuss</p>
+                    <p>Capa comum</p>
+                    <p>Editora Arqueiro, 1ª edição</p>
+                    <p class="valor">R$25</p>
+                    <a href="#" class="detalhes"><button> Ver detalhes</button></a>
+                </div>
+
+                <div class="container">
+                    <img src="images/habibi.jpg" alt="Habibi" class="capa-livro">
+                    <h5>Habibi</h5>
+                    <p>Autor(a): Craig Thompson</p>
+                    <p>Graphic novel, capa comum</p>
+                    <p>Editora Quadrinhos na Cia, 1ª edição</p>
+                    <p class="valor">R$45</p>
+                    <a href="#" class="detalhes"><button> Ver detalhes</button></a>
+                </div>
+
+                <div class="container">
+                    <img src="images/harrypotter_azkaban.jpg" alt="Harry Potter e o Prisioneiro de Azkaban" class="capa-livro">
+                    <h5>Harry Potter e o Prisioneiro de Azkaban</h5>
+                    <p>Autor(a): J.K. Rowling</p>
+                    <p>Capa comum</p>
+                    <p>Editora Rocco, 1ª edição</p>
+                    <p class="valor">R$20</p>
+                    <a href="#" class="detalhes"><button> Ver detalhes</button></a>
+                </div>
+
+                <div class="container">
+                    <img src="images/it.jpg" alt="It" class="capa-livro">
+                    <h5>It: A Coisa</h5>
+                    <p>Autor(a): Stephen King</p>
+                    <p>Capa comum</p>
+                    <p>Editora Suma, 1ª edição</p>
+                    <p class="valor">R$50</p>
+                    <a href="#" class="detalhes"><button> Ver detalhes</button></a>
+                </div>
+
+                <a href="#" class="mais-livros">Ver mais</a>
+            </section>
+
+            <div id="ancora-sobre-nos"></div>
+
+            <section id="sobre-nos">
+                <h3>Sobre o Velha Estante</h3>
+                <p class="paragrafo">Com a vontade de passar nossos antigos livros para novos leitores, começamos a vender online e, com o tempo, amigos e pessoas próximas pediram para fazermos o mesmo por eles. Abraçamos a oportunidade e, assim, o Velha Estante nasceu.</p>
+                <p class="paragrafo">Agora, nossa missão é encontrar novos lares para livros antigos. Para isso, contamos com uma equipe de restauração, além de uma plataforma onde você também pode anunciar seus livros e ajudar a crescer a cultura de literatura em nosso país!</p>
+
+                <a href="#ancora-cadastro"><button class="link-destaque">Cadastre-se!</button></a>
+            </section>
+
+            <div id="ancora-fale-conosco"></div>
+
+            <section id="fale-conosco">
+                <h3>Fale Conosco</h3>
+                <p class="paragrafo">Preencha o formulário abaixo e envie sua mensagem:</p>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" class="formulario-texto" name="nome" placeholder="Digite seu nome" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" class="formulario-texto" name="email" placeholder="exemplo@email.com" required>
+
+                    <label for="telefone">Telefone para contato:</label>
+                    <input type="tel" maxlength="15" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" id="telefone" class="formulario-texto" name="telefone" placeholder="(11) 99999-9999" required>
+
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" class="formulario-texto" name="assunto" placeholder="Assunto" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" class="text-area" required></textarea>
+
+                    <!--Colocar termo de aceite para receber novidades do site-->
+
+                    <button class="submit">Enviar</button>
+                </form>
+            </section>
+
+            <div id="ancora-venda-livros"></div>
+
+            <section id="venda-livros">
+                <h3>Venda seus livros no Velha Estante</h3>
+
+                <p class="paragrafo">Nós, do Velha Estante, queremos que os livros tenham sempre um lar que os queira. Assim, nos propomos a te ajudar a vender seus livros usados, com muito carinho e de forma confiável. Se achar necessário, temos uma equipe responsável pela restauração dos exemplares com mais marcas de uso e do tempo, com uma pequena taxa adicional.</p>
+                <p>Confira, na tabela abaixo, a comissão cobrada pela quantidade de livros vendidos.</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Quantidade de livros</th>
+                            <th>Comissão sobre o valor total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th colspan="2">Livros em edições convencionais e nacionais </th>
+                        </tr>
+                        <tr>
+                            <td>1 a 5 livros</td>
+                            <td>15% para valor total de até R$50, 10% para superiores </td>
+                        </tr>
+                        <tr>
+                            <td>6 a 10 livros</td>
+                            <td>15% para valor total até R$100, 10% para superiores</td>
+                        </tr>
+                        <tr>
+                            <td>11 livros ou mais</td>
+                            <td>20% sobre o valor total</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Edições especiais e livros importados</th>
+                        </tr>
+                        <tr>
+                            <td>1 a 5 livros</td>
+                            <td>20% sobre o valor total</td>
+                        </tr>
+                        <tr>
+                            <td>6 livros ou mais</td>
+                            <td>18% sobre o valor total</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="observacao">** Caso o livro precise de alguma restauração, cobramos uma taxa adicional de R$15 referente à manutenção da peça.</p>
+            </section>
+
+            <div id="ancora-cadastro"></div>
+
+            <section id="cadastro">
+                <h4 class="chamada-cadastro">Tem interesse em vender seus livros ou comprar de alguém? Cadastre-se e faça parte de nossa comunidade!</h4>
+                <form>
+                    <label for="nome-cadastro">Nome:</label>
+                    <input type="text" name="nome-cadastro" class="formulario-texto" id="nome-cadastro" placeholder="Insira seu nome completo" required>
+
+                    <label for="email-cadastro">e-mail:</label>
+                    <input type="email" name="email-cadastro" class="formulario-texto" id="email-cadastro" placeholder="exemplo@email.com" required>
+
+                    <label for="senha-cadastro">Senha:</label>
+                    <input type="password" name="senha-cadastro" class="formulario-texto" id="senha-cadastro" required>
+
+                    <p>Você deseja comprar ou vender livros?</p>
+                    <input type="radio" name="interesse" class="radio-opcao" id="interesse-a">
+                    <label for="interesse-a">Comprar</label>
+                    <input type="radio" name="interesse" class="radio-opcao" id="interesse-b">
+                    <label for="interesse-b">Vender</label>
+                    <input type="radio" name="interesse" class="radio-opcao" id="interesse-c">
+                    <label for="interesse-c">Ambos</label>              
+
+                    <button class="submit">Vamos lá!</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <nav>
+                <h5>Nossas redes sociais:</h5>
+                <a href="https://facebook.com" target="_blank"><img src="images/redes/facebook.png" alt="Link para o Facebook" class="redes-sociais"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/redes/instagram.png" alt="Link para o Facebook" class="redes-sociais"></a>
+                <a href="https://twitter.com" target="_blank"><img src="images/redes/twitter.png" alt="Link para o Facebook" class="redes-sociais"></a>
+                <a href="#"><img src="images/redes/whatsapp.png" alt="Link para o Facebook" class="redes-sociais"></a>
+            </nav>
+        </footer>
+    </body>
+</html>
